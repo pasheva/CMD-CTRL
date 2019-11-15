@@ -43,6 +43,8 @@ Shadow Bank is the premier bank for people who love cryptocurrencies and hate th
     +<button id="acct-info-button" class="btn btn-primary" type="button" enabled="">Dump Account Info</button>
     ```
     After that it was all matter of decrypting the MD5 hashes and removing the salt string whenever needed. Offlin command line tool that can do that is johntheripper.
+
+    
     |Username| Password|Salt|After Decryption MD5|
     |:---:|:---:|:---:|:---:|
     |shadow|a326311e36651f79b0dcd4dcda70228e|abc123|iamacat|
