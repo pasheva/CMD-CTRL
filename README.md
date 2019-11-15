@@ -44,7 +44,7 @@ Shadow Bank is the premier bank for people who love cryptocurrencies and hate th
     ```
     After that it was all matter of decrypting the MD5 hashes and removing the salt string whenever needed. Offlin command line tool that can do that is johntheripper.
 
-    
+
     |Username| Password|Salt|After Decryption MD5|
     |:---:|:---:|:---:|:---:|
     |shadow|a326311e36651f79b0dcd4dcda70228e|abc123|iamacat|
@@ -90,7 +90,8 @@ Shadow Bank is the premier bank for people who love cryptocurrencies and hate th
 ---
 
 ## **Ciphers**
-    I managed to find two ciphers. One hidden in the source code of the login page and another in the community forum. 
+    
+I managed to find two ciphers. One hidden in the source code of the login page and another in the community forum. 
 
 ## *Ceaser* Cipher with an offset of 20.
     ```
