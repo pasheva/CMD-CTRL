@@ -2,7 +2,7 @@
 
 I got participate in a recent beginner friendly ~~for cat lovers~~ CTF. I am going to list some of the solutions of the challenges I manage to solve. The system was automatically awarding points based on difficulty. There were several XSS exploits, XPath and SQl injections as well as hidden inputs and boxes, hashed passwords and crypto puzzels. 
 
-### *Standing before the competition was officially closed: Points: 3695 Rank: 2*
+#### *Standing before the competition was officially closed: Points: 3695 Rank: 2*
 
 ## **Objective**
 **Financial<br>**
