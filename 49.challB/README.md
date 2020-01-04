@@ -8,7 +8,7 @@
 >Flag is in the "cfc{}" format. 
 
 There was only one file provided, which is [**sneak_exfil_clean.pcapng**](./sneak_exfil_clean.pcapng)
-pcapng, which extends the simpler flormat pcap is a Wireshark file, therefore, there must be packages, which were captured over the network.
+ .pcapng is an extension of the pcap file, which is a Wireshark file, therefore, there must be packages, which were captured over the network.
 A tool that analizes network traffic and it captures data over TCP connections is tcpflow.
 
 ```
