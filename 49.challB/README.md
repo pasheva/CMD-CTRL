@@ -100,6 +100,6 @@ Every character has been converted to ASCII value and shifted down by 10 so we c
 -oh.write(chr(ord(ch)-0xa))
 +oh.write(chr(ord(ch)+0xa))
 ```
-Running again the python file get us the hidde_lost.txt file, which
+Running again the python file get us the hidden_lost.txt file, which
 has the [**flag**](./hidden_loot.txt):
 >cfc{wirEshaRkStar}
