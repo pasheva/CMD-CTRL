@@ -1,0 +1,23 @@
+#!/usr/bin/python
+
+import sys
+
+ofilename = "hidden_loot.txt"
+
+if len(sys.argv) < 2: 
+	print "not enough args"
+	exit()
+
+ih = open(sys.argv[1], "r")
+oh = open(ofilename, "w")
+
+print "s: ", sys.argv[1]
+
+with open(sys.argv[1]) as ih:
+	for line in ih:
+		for ch in line:
+			oh.write(chr(ord(ch)-0xa))
+
+
+print "my dude, file is ready for exfil" 
+
